@@ -75,10 +75,19 @@
 <body>
   <canvas id="confetti"></canvas>
   <div class="particles" id="particles"></div>
-  
-  <div class="spline-bg" id="splineContainer">
-    <div class="spline-brand-hide"></div>
-  </div>
+
+  <!-- Spline fullscreen scene -->
+      <div class="spline-bg">
+        <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.92/build/spline-viewer.js"></script>
+        <spline-viewer
+          id="splineViewer"
+          url="https://prod.spline.design/ZDljKn-8GwgSVjAr/scene.splinecode"
+        ></spline-viewer> -->
+        <script type="module" src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"></script>
+
+<spline-viewer url="./assets/poo_i_mean_chocolate_cake.spline"></spline-viewer>
+        <div class="spline-brand-hide"></div>
+      </div>
 
   <section class="hero" id="heroSection">
     <div class="hero-sticky" id="heroSticky">
